@@ -1,0 +1,10 @@
+Test ID,Test Scenario,Objective / Input,Precondition,Expected Result,Technique,Author
+TC01,Valid login,"standard_user / secret_sauce",Login page is open,User reaches Products inventory,Positive functional testing,Student B
+TC02,Invalid password,"standard_user / incorrect_password",Login page is open,Visible invalid-credentials error,Negative testing,Student B
+TC03,Locked-out user,"locked_out_user / secret_sauce",Login page is open,Access denied with locked-out message,Negative testing,Student B
+TC04,Empty login,"Username and password left blank",Login page is open,Username-required validation appears,Boundary / negative testing,Student B
+TC05,Add product,"Add Sauce Labs Backpack",Valid user is logged in,Cart badge displays 1,Functional testing,Student B
+TC06,Remove product,"Remove Sauce Labs Backpack",Product is in cart,Cart item and badge are removed,Functional testing,Student B
+TC07,Sort products,"Select Price low to high",Valid user is logged in,Prices appear in ascending order,Functional / ordering testing,Student B
+TC08,Checkout required field,"Continue with customer details empty",A product is in cart and checkout information page is open,First Name required error appears,Negative validation testing,Student B
+TC09,Complete checkout,"Test / Student / 560001",A product is in cart and checkout information is completed,Thank-you order confirmation appears,End-to-end testing,Student B
